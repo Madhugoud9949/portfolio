@@ -31,6 +31,7 @@ header {
     align-items: center;
     z-index: 100;
     background: #fff; 
+    
 }
 
 .logo {
@@ -89,6 +90,7 @@ header {
 
 .content {
     max-width: 500px;
+    margin-top: 20px;
     color: var(--secondary-color);
 }
 
@@ -207,3 +209,16 @@ footer {
         padding: 50px 20px;
     }
 }
+.services-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width:
